@@ -13,7 +13,7 @@
         </title>
 
         <!-- Page stylesheet. This governs how the page looks visually, don't touch this... -->
-        <link rel="stylesheet" href="temp_style.css">
+        <link rel="stylesheet" href="style.css">
 
         <!-- Page Viewport. Don't touch this... -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -22,21 +22,24 @@
     <body>
         <!-- This is the website navigation. For each page you want to navigate to, add an *a tag with the *href of the page link.-->
         <div class="navigation" >
-            <a href=""> Page 1 </a>
-            <a href=""> Page 2 </a>
-            <a href=""> Page 3 </a>
+            <!-- This is "H1" because it's the current page -->
+            <h1 class="navigation" href=""> Page 1 </h1>
+
+            <!-- These are links that lead to the other pages -->
+            <a class="navigation" href=""> Page 2 </a>
+            <a class="navigation" href=""> Page 3 </a>
         </div>
 
         <div class="Content">
             <div class="header">
             
                 <!-- This is the logo, don't touch this... -->
-                <img class="logo" src="" />
+                <img class="logo" src="assets/test_logo.png" />
     
                 <div class="map">
     
                     <!-- This is where you place the image of the map showing where you are on the trail. To add a new image, place the image link inside of *src. -->
-                    <img class="map" src="" />
+                    <img class="map" src="assets/placeholder.jpg" />
         
                 </div>
     
@@ -72,6 +75,17 @@
     
             </div>
         </div>
+
+        <!-- These are the page colors, only change the hex values (Ex: #000000) -->
+        <script>
+            document.documentElement.style.setProperty("--background_1", "#D9D9D9");
+            document.documentElement.style.setProperty("--background_2", "#AFAFAF");
+            document.documentElement.style.setProperty("--borders", "#000000");
+            document.documentElement.style.setProperty("--text", "#000000");
+            document.documentElement.style.setProperty("--selected_text_1", "#364E72");
+            document.documentElement.style.setProperty("--selected_text_2", "#364E72");
+            document.documentElement.style.setProperty("--selected_text_3", "#364E72");
+        </script>
 
     </body>
 </html>
