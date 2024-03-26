@@ -32,7 +32,7 @@ div {
     font-size: 45px;
     text-shadow: #00000040 0px 4px 4px;
 
-    border-bottom: 5px solid var(--borders);
+    border-bottom: 7px solid var(--borders);
     
     padding: 15px;
     margin: 0;
@@ -105,7 +105,7 @@ a.attatchment:hover {
         height: 100%;
 
         border: solid;
-        border-width: 0 5px 0 0;
+        border-width: 0 7px 0 0;
         border-color: var(--borders);
 
         display: flex;
@@ -114,7 +114,7 @@ a.attatchment:hover {
 
     /* Navigation Link Styling */
     a.navigation, h1.navigation {
-        font-size: 50px;
+        font-size: 3vw;
         font-weight: bold;
         text-decoration: none;
 
@@ -123,11 +123,11 @@ a.attatchment:hover {
 
     h1.navigation {
         color: var(--selected_text_1);
-        margin: 25px 0px 0px 90px;
+        margin: 2vw 0px 0px 4vw;
     }
 
     a.navigation {
-        margin: 25px 0px 0px 50px;
+        margin: 1vw 0px 0px 2vw;
     }
 
     a.navigation:link {
