@@ -17,8 +17,9 @@ html, body {
     background-color: var(--background_2);
 
     font-family: "Inter", Arial;
-    
+
     overflow-x: hidden;
+    position: relative
 }
 
 /* Reset margin for all div elements */
