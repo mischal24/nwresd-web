@@ -20,6 +20,9 @@ html, body {
 
     overflow-x: hidden;
     position: relative;
+
+    display: flex;
+    flex-direction: column;
 }
 
 /* Reset margin for all div elements */
@@ -50,7 +53,7 @@ a.attatchment {
     font-size: 20px;
 
     padding: 15px;
-    margin: 0;
+    margin: 0px 0px 50px 0px;
 }
 
 a.attatchment:link {
@@ -96,6 +99,24 @@ a.attatchment:hover {
     right: -70px;
 }
 
+
+div.footer {
+    background-color: var(--borders);
+    color: var(--background_1);
+
+    margin: 0;
+    padding: 10px;
+    bottom: 0px;
+
+    position: fixed;
+
+    text-align: center;
+}
+
+h2.footer {
+    font-size: 10px;
+}
+
 /* Additional Mobile Styling */
 @media (max-width: 1400px) {
     .navigation {
@@ -106,6 +127,10 @@ a.attatchment:hover {
         transform: translateY(220px);
     
         width: 200px;
+    }
+
+    div.footer {
+        width: 100%;
     }
 }
 
@@ -118,6 +143,8 @@ a.attatchment:hover {
     }
     
     div.navigation {
+        background-color: var(--background_1);
+
         width: 60vw;
         height: 100%;
 
@@ -163,5 +190,9 @@ a.attatchment:hover {
         transform: translateY(120px);
     
         width: 300px;
+    }
+
+    div.footer {
+        width: 83vw;
     }
 }
