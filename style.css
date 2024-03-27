@@ -19,7 +19,7 @@ html, body {
     font-family: "Inter", Arial;
 
     overflow-x: hidden;
-    position: relative
+    position: relative;
 }
 
 /* Reset margin for all div elements */
