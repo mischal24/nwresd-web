@@ -130,7 +130,7 @@ h2.footer {
     }
 
     div.footer {
-        width: 100%;
+        display: none;
     }
 }
 
