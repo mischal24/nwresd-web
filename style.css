@@ -36,6 +36,9 @@ div {
     
     padding: 15px;
     margin: 0;
+
+    position: relative;
+    z-index: 1;
 }
 
 
@@ -85,10 +88,21 @@ a.attatchment:hover {
     margin: 10px;
 }
 
+.image {
+    position: absolute;
+    right: -70px;
+}
+
 /* Additional Mobile Styling */
 @media (max-width: 1400px) {
     .navigation {
         display: none;
+    }
+
+    .image {
+        transform: translateY(220px);
+    
+        width: 200px;
     }
 }
 
@@ -140,5 +154,11 @@ a.attatchment:hover {
 
     a.navigation:hover {
         color: var(--text);
+    }
+
+    .image {
+        transform: translateY(120px);
+    
+        width: 300px;
     }
 }
