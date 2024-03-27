@@ -19,27 +19,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     </head>
     
+
+    <!-- Below is the content. to change the page's content, edit code here -->
     <body>
-        <!-- This is the website navigation. For each page you want to navigate to, add an *a tag with the *href of the page link.-->
+
+        <!-- This is the website navigation. This only shows on PC. -->
         <div class="navigation" >
-            <!-- The page's text (I.E. Page 1, Page 2) is the name of what's on that page. For example, if that page leads to information about flowers, call it "flowers" -->
-            <!-- This is "H1" because it's the current page -->
+            <!-- The text (I.E. Page 1, Page 2) is the navigation option text. For example, if that page leads to information about daisies, It'd be called "daisies" -->
+            <!-- This is *H1* because it's the current page and not a link. Always make the current page *H1*. -->
             <h1 class="navigation" href=""> Page 1 </h1>
 
-            <!-- These are links that lead to the other pages -->
+            <!-- These are *a* because they are links that lead to the other pages. Make all other navigation options *a* and link them to other pages using *href*. -->
             <a class="navigation" href=""> Page 2 </a>
             <a class="navigation" href=""> Page 3 </a>
         </div>
 
+
+        <!-- This is the rest of the website's content. This shows on all devices. -->
         <div class="Content">
             <div class="header">
             
-                <!-- This is the logo, don't touch this... -->
+                <!-- This is the logo. Change the *src* on line 42 to the new logo location (where it's located in the files) if a new logo is now being used. -->
                 <img class="logo" src="assets/test_logo.png" />
     
                 <div class="map">
     
-                    <!-- This is where you place the image of the map showing where you are on the trail. To add a new image, place the image link inside of *src. -->
+                    <!-- This is the map. This shouldn't need to be changed from the initial map unless a new map is now being used. If so, then change the *src* on line 47 -->
                     <img class="map" src="assets/placeholder.jpg" />
         
                 </div>
@@ -48,14 +53,14 @@
 
             <div class="information">
 
-                <!-- This is the title of the content for the area. You can change this. -->
+                <!-- This is the title. Change the text below to change what the page says in it's title section. -->
                 <h1 class="title">
     
                     Example
     
                 </h1>
     
-                <!-- This is where you write the content for the area; It's the description of the area. You can change this. -->
+                <!-- This is the description. Change the text below to change what the page says in it's description section. -->
                 <p class="info">
     
                     The given sentence serves as an illustrative placeholder text, analogous to Lorem Ipsum commonly used in the design and typesetting industry.
@@ -70,14 +75,15 @@
     
             <div class="attatchment">
                 
-                <!-- This is where you add an attatchment. The attatchment is usually a PDF explaining more about the content for the area.
-                     To add a new attatchment, place the attatchment link inside of *href. -->
+                <!-- This is where you add an attatchment. The attatchment will usually be a PDF explaining more about the content, but it can really lead to anything.
+                    To add a new attatchment, put a link to the attatchment inside of *href* on line 80.
+                    (Do not change "attacthment name ↓"). -->
                 <a class="attatchment" href=""> attatchment name ↓ </a>
     
             </div>
         </div>
 
-        <!-- These are the page colors, only change the hex values (Ex: #000000) -->
+        <!-- These are the page's colors. They can be changed to match the content, only change the hex values. (Ex: "#000000"). -->
         <script>
             document.documentElement.style.setProperty("--background_1", "#D9D9D9");
             document.documentElement.style.setProperty("--background_2", "#AFAFAF");
