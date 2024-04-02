@@ -169,10 +169,17 @@ a.navigation:hover {
     color: var(--text);
 }
 
+/* Content */
 .image {
     transform: translateY(120px);
     
     width: 300px;
+}
+
+a.attatchment::after {
+    content: "↓";
+    display: inline-block;
+    text-decoration: none;
 }
 
 /* Additional Mobile Styling */
