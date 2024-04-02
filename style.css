@@ -99,7 +99,7 @@ a.attatchment:hover {
     right: -70px;
 }
 
-
+/* Footer */
 div.footer {
     background-color: var(--borders);
     color: var(--background_1);
@@ -111,15 +111,73 @@ div.footer {
     position: fixed;
 
     text-align: center;
+
+    width: 87vw;
 }
 
 h2.footer {
     font-size: 10px;
 }
 
+/* Navigation */
+body {
+    display: flex;
+    flex-direction: row;
+}
+    
+div.navigation {
+    background-color: var(--background_1);
+
+    width: 40vw;
+    height: 100%;
+
+    border: solid;
+    border-width: 0 7px 0 0;
+    border-color: var(--borders);
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation Link Styling */
+a.navigation {
+    font-size: 1.6vw;
+    font-weight: bold;
+    text-decoration: none;
+
+    padding: 15px;
+}
+
+#current {
+    color: var(--selected_text_1);
+    margin: 2vw 0px 0px 2vw;
+}
+
+a.navigation {
+    margin: 0vw 0px 0px 2vw;
+}
+
+a.navigation:link {
+    color: var(--text);
+}
+
+a.navigation:visited {
+    color: var(--text);
+}
+
+a.navigation:hover {
+    color: var(--text);
+}
+
+.image {
+    transform: translateY(120px);
+    
+    width: 300px;
+}
+
 /* Additional Mobile Styling */
 @media (max-width: 1400px) {
-    .navigation {
+    div.navigation {
         display: none;
     }
 
@@ -131,68 +189,5 @@ h2.footer {
 
     div.footer {
         display: none;
-    }
-}
-
-/* Additional PC Styling */
-@media (min-width: 1400px) {
-
-    body {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    div.navigation {
-        background-color: var(--background_1);
-
-        width: 60vw;
-        height: 100%;
-
-        border: solid;
-        border-width: 0 7px 0 0;
-        border-color: var(--borders);
-
-        display: flex;
-        flex-direction: column;
-    }
-
-    /* Navigation Link Styling */
-    a.navigation, h1.navigation {
-        font-size: 2vw;
-        font-weight: bold;
-        text-decoration: none;
-
-        padding: 15px;
-    }
-
-    h1.navigation {
-        color: var(--selected_text_1);
-        margin: 2vw 0px 0px 4vw;
-    }
-
-    a.navigation {
-        margin: 1vw 0px 0px 2vw;
-    }
-
-    a.navigation:link {
-        color: var(--text);
-    }
-
-    a.navigation:visited {
-        color: var(--text);
-    }
-
-    a.navigation:hover {
-        color: var(--text);
-    }
-
-    .image {
-        transform: translateY(120px);
-    
-        width: 300px;
-    }
-
-    div.footer {
-        width: 83vw;
     }
 }
