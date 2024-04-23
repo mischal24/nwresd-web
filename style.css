@@ -56,7 +56,16 @@ nav {
 
     transition: transform 0.5s ease;
     z-index: 2;
+
+    overflow: scroll;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+
+nav::-webkit-scrollbar {
+    display: none;
+ }
 
 nav:hover {
     transform: translateX(0vh);
