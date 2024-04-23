@@ -1,3 +1,6 @@
+/* ALERT!!! You'll need a basic understanding of code to make changes to this file. If you don't fit this description, then please close this file! */
+/* This does NOT need to change! only change if you know what you are doing! */
+
 document.write(`
 
     <img id="logo" src="assets/test_logo.png" />
