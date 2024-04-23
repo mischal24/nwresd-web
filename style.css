@@ -47,7 +47,7 @@ nav {
 
     border: solid;
     border-width: 0 7px 0 0;
-    border-color: black;
+    border-color: var(--borders_text);
 
     box-shadow: 10px -10px 10px #00000040;
 
@@ -101,6 +101,7 @@ nav a:hover {
 
 header {
     background-color:var(--background_1);
+    color: var(--borders_text);
 
     font-size: 2.5vw;
     text-shadow: #00000040 0px 4px 4px;
