@@ -3,7 +3,10 @@
 
 document.write(`
 
+    <!-- This is the logo on the navigation. ONLY CHANGE IF NEW LOGO IS MADE! -->
     <img id="logo" src="assets/test_logo.png" />
+
+    <!-- This is where you add links for each page. Be sure to make the link's text the same as it's title! -->
     <a href=""> Page 1 </h1>
     <a href=""> Page 2 </a>
     <a href=""> Page 3 </a>
