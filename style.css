@@ -205,7 +205,7 @@ footer {
         padding-bottom: 8vh;
     }
 
-    #map {
+    #map, #map-image {
         height: 60vh;
     }
 
