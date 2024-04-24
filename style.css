@@ -148,7 +148,9 @@ article a::after {
 
 #map {
     background-color: #ffffff;
+}
 
+#map, #map-image {
     width: 100%;
     height: 25vw;
 
