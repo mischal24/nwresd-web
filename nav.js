@@ -6,6 +6,9 @@ document.write(`
     <!-- This is the logo on the navigation. ONLY CHANGE IF NEW LOGO IS MADE! -->
     <img id="logo" src="assets/test_logo.png" />
 
+    <!-- This is the link to the home page. NEVER CHANGE THIS! -->
+    <a href="index.html"> Home </h1>
+
     <!-- This is where you add links for each page. Add a link to another page inbetween the href, and be sure to make the link's text the same as it's title! -->
     <a href=""> Page 1 </h1>
     <a href=""> Page 2 </a>
